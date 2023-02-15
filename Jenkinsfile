@@ -16,11 +16,11 @@ stages {
     stage('Deploy') {
         steps {
             // deployment code
-            
-            echo 'deployment successful
+            sh 'mvn deploy'
+            echo 'deployment successful'
         }
     }
-
+}
 
 post {
     always {
