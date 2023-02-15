@@ -16,7 +16,8 @@ stages {
     stage('Deploy') {
         steps {
             // deployment code
-            echo 'deployment successful'
+            
+            echo 'deployment successful
         }
     }
 }
