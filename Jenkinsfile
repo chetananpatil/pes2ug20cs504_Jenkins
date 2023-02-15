@@ -20,7 +20,7 @@ stages {
             echo 'deployment successful
         }
     }
-}
+
 
 post {
     always {
